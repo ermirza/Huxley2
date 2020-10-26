@@ -65,9 +65,9 @@ stages:
       displayName: 'Deploy Huxley 2 to Azure web app service'
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Free Trial(e78f5ea0-bc84-42ba-8122-2a20415a6d00)'
+        azureSubscription: 'Free Trial(bc29b6da-ca9b-4705-a8bb-ddfff295c9d7)'
         appType: 'webAppLinux'
-        WebAppName: 'huxley2'
+        WebAppName: 'dep-arr-times'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
         RuntimeStack: 'DOTNETCORE|3.1'
 
